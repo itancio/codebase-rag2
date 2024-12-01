@@ -35,3 +35,13 @@ git branch -M main
 git remote add origin https://github.com/itancio/codebase-rag2.git
 git push -u origin main
 ```
+
+- Error: clearing large files in the commit history
+
+```bash
+git filter-branch --force --index-filter \
+'git rm --cached --ignore-unmatch streamlit/temp_model.pkliw086gn4.part' \
+--prune-empty --tag-name-filter cat -- --all
+
+git push origin --force --all
+```

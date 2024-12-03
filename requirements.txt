@@ -13,3 +13,31 @@ tiktoken >= 0.7.0
 tree-sitter >= 0.22.3
 tree-sitter-typescript >= 0.21.2
 tree-sitter-language-pack >= 0.2.0
+
+GitPython \
+langchain \
+langchain-community \
+langchain-experimental \
+langchain-openai \
+langchain-text-splitters \
+langchain_experimental \
+langchain_openai \
+langchain_pinecone \
+neo4j \
+openai \
+pinecone \
+pinecone-client \
+pinecone-plugin-inference \
+pinecone-plugin-assistant \
+pygithub \
+pygments \
+pyngrok \
+python-dotenv \
+requests \
+semchunk \
+streamlit \
+tiktoken \
+tree-sitter \
+tree-sitter-language-pack \
+wikipedia \
+yfiles_jupyter_graphs
